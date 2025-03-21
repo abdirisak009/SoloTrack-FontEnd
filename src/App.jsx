@@ -1,15 +1,9 @@
-import React from "react";
-import WeightLoss from "./assets/pages/WeightLoss";
-import FoodsMealPlan from "./components/FoodMeal";
-import SuccessStories from "./components/SuccessStories";
-
+import React from 'react'
 
 const App = () => {
-  return <>
-<WeightLoss/>
-<FoodsMealPlan/>
-<SuccessStories/>
-  </>;
-};
+  return (
+    <div>App</div>
+  )
+}
 
-export default App;
+export default App
