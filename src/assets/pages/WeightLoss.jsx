@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, CardContent } from "../ui/Card";
+import { Card, CardContent } from "../../components/Card";
 
 import { CheckCircle, Scale, Leaf, Utensils, Droplet, Clock } from "lucide-react";
 
