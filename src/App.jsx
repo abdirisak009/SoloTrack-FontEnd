@@ -1,13 +1,17 @@
 import React from 'react'
 import WeightLoss from './pages/WeightLoss'
-import Hero from './Components/Hero'
+import Recipe_cooking from './pages/Recipe_cooking';
+// import Hero from './Components/Hero'
+
 
 const App = () => {
   return (
+    <>
     <div>
-   <Hero/>
-    <WeightLoss/>
+   <Recipe_cooking/>
+    
     </div>
+    </>
   )
 }
 
