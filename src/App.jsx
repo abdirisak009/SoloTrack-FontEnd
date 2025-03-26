@@ -1,15 +1,13 @@
 import React from 'react'
-import WeightLoss from './pages/WeightLoss'
-import Recipe_cooking from './pages/Recipe_cooking';
-// import Hero from './Components/Hero'
+import Footer from './components/Footer';
 
 
 const App = () => {
   return (
     <>
     <div>
-   <Recipe_cooking/>
     
+    <Footer/>
     </div>
     </>
   )
