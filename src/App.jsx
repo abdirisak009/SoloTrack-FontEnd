@@ -1,16 +1,12 @@
-import React from 'react'
-import Footer from './components/Footer';
+import React from "react";
+import LifestyleMindset from "./pages/Lifestyle & Mindset";
 
-
-const App = () => {
+function App() {
   return (
-    <>
     <div>
-    
-    <Footer/>
+      <LifestyleMindset />
     </div>
-    </>
-  )
+  );
 }
 
 export default App;
