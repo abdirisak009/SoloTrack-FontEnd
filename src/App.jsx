@@ -1,12 +1,11 @@
 import React from 'react'
-import WeightLoss from './pages/WeightLoss'
-import Hero from './Components/Hero'
+import Track from './components/Track';
 
 const App = () => {
   return (
     <div>
-   <Hero/>
-    <WeightLoss/>
+      <Track/>
+   
     </div>
   )
 }
