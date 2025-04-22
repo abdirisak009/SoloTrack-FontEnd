@@ -28,7 +28,7 @@ function NutritionGuide() {
               {/* Mediterranean Diet */}
               <div className="bg-white shadow rounded-lg">
                 <div className="h-40 mb-4">
-                  <img src="Mediterranean Diet.jpg" alt="Mediterranean Diet" className="w-full object-cover h-full" />
+                  <img src="src\assets\images\Mediterranean Diet.jpg" alt="Mediterranean Diet" className="w-full object-cover h-full" />
                 </div>
                 <h3 className="text-xl font-semibold px-3 ">Mediterranean Diet</h3>
                 <p className="mt-2 text-gray-600 p-3 ">Emphasizes plant foods, olive oil, fish, and moderate wine consumption. Associated with heart health and longevity.</p>
@@ -42,7 +42,7 @@ function NutritionGuide() {
               {/* Ketogenic Diet */}
               <div className="bg-white shadow rounded-lg">
                 <div className="h-40 mb-4">
-                  <img src="Ketogenic Diet.jpg" alt="Ketogenic Diet" className="w-full object-cover h-full" />
+                  <img src="src\assets\images\Ketogenic Diet.jpg" alt="Ketogenic Diet" className="w-full object-cover h-full" />
                 </div>
                 <h3 className="text-xl font-semibold px-3 ">Ketogenic Diet</h3>
                 <p className="mt-2 text-gray-600 p-3 ">Very low-carb, high-fat diet that shifts the body into ketosis. Popular for weight loss and metabolic health.</p>
@@ -56,7 +56,7 @@ function NutritionGuide() {
               {/* Plant-Based Diet */}
               <div className="bg-white p-6 shadow rounded-lg">
                 <div className="h-40 mb-4">
-                  <img src="3.jpg.jpg" alt="Plant-Based Diet" className="w-full object-cover h-full rounded-lg" />
+                  <img src=" src\assets\images\Plant-Based Diet.jpg" alt="Plant-Based Diet" className="w-full object-cover h-full " />
                 </div>
                 <h3 className="text-xl font-semibold">Plant-Based Diet</h3>
                 <p className="mt-2 text-gray-600">Focuses on foods derived from plants with minimal or no animal products. Supports environmental sustainability.</p>
@@ -69,7 +69,7 @@ function NutritionGuide() {
               {/* Paleo Diet */}
               <div className="bg-white shadow rounded-lg">
                 <div className="h-40 mb-4">
-                  <img src="Paleo Diet.jpg" alt="Paleo Diet" className="w-full object-cover h-full" />
+                  <img src="src\assets\images\Paleo Diet.jpg" alt="Paleo Diet" className="w-full object-cover h-full" />
                 </div>
                 <h3 className="text-xl font-semibold px-3">Paleo Diet</h3>
                 <p className="mt-2 text-gray-600 px-3">Based on foods presumed to be available to prehistoric humans. Excludes grains, dairy, and processed foods.</p>
@@ -82,7 +82,7 @@ function NutritionGuide() {
               {/* Intermittent Fasting */}
               <div className="bg-white p-6 shadow rounded-lg">
                 <div className="h-40 mb-4">
-                  <img src="Intermittent Fasting.jpg" alt="Intermittent Fasting" className="w-full object-cover h-full rounded-lg" />
+                  <img src="src\assets\images\Intermittent Fasting.jpg" alt="Intermittent Fasting" className="w-full object-cover h-full rounded-lg" />
                 </div>
                 <h3 className="text-xl font-semibold">Intermittent Fasting</h3>
                 <p className="mt-2 text-gray-600">Cycling between periods of eating and fasting. Various methods include 16/8, 5:2, and alternate-day fasting.</p>
@@ -166,41 +166,41 @@ function NutritionGuide() {
 
         <div className="bg-white text-gray-900">
           <div className="max-w-7xl mx-auto px-6 py-12">
-            {/* Title Section */}
+            
             <div className="text-center mb-10">
               <h2 className="text-3xl font-bold">Balanced Meal Planning</h2>
               <p className="text-gray-600 mt-2">Create nutritious, satisfying meals with these simple guidelines</p>
             </div>
 
-            {/* Balanced Meal Planning Grid */}
+        
             <div className="grid md:grid-cols-2 gap-6">
-              {/* The Plate Method */}
+             
               <div className="bg-gray-50 p-6 shadow-lg rounded-xl border border-gray-200">
                 <h3 className="text-xl font-semibold mb-4">The Plate Method</h3>
                 <div className="bg-gray-100 h-60 flex items-center justify-center rounded-lg mb-4">
-                  <img src="" alt="Plate Method" /> {/* Add your plate method image here */}
+                  <img  className="w-full object-cover h-full  " src="src\assets\images\Plate Method.jpg" alt="Plate Method" /> 
                 </div>
                 <ul className="space-y-2 text-gray-700">
                   <li className="flex items-start gap-2">
-                    {/* icon */}
+                   
                     Fill half your plate with non-starchy vegetables - leafy greens, broccoli, peppers, etc.
                   </li>
                   <li className="flex items-start gap-2">
-                    {/* icon */}
+                  
                     Fill one quarter with protein - chicken, fish, tofu, beans, etc.
                   </li>
                   <li className="flex items-start gap-2">
-                    {/* icon */}
+                   
                     Fill one quarter with complex carbohydrates - brown rice, quinoa, sweet potato, etc.
                   </li>
                   <li className="flex items-start gap-2">
-                    {/* icon */}
+                  
                     Add a small amount of healthy fat - olive oil, avocado, nuts, etc.
                   </li>
                 </ul>
               </div>
 
-              {/* Meal Prep Tips */}
+           
               <div className="bg-gray-50 p-6 shadow-lg rounded-xl border border-gray-200">
                 <h3 className="text-xl font-semibold mb-4">Meal Prep Tips</h3>
                 <ul className="space-y-3 text-gray-700">
@@ -237,7 +237,7 @@ function NutritionGuide() {
           </p>
 
           <div className="space-y-4">
-            {/* FAQ 1 */}
+         
             <div className="bg-gray-50 p-4 rounded-lg shadow">
               <h3 className="font-semibold text-lg mb-2">How many calories should I eat per day?</h3>
               <p className="text-gray-600">
@@ -245,21 +245,21 @@ function NutritionGuide() {
               </p>
             </div>
 
-            {/* FAQ 2 */}
+          
             <div className="bg-gray-50 p-4 rounded-lg shadow">
               <h3 className="font-semibold text-lg mb-2">What's the difference between simple and complex carbohydrates?</h3>
               <p className="text-gray-600">
                 Simple carbs (like sugar and white flour) are quickly digested and can spike blood sugar. Complex carbs (like whole grains and vegetables) contain fiber, digest more slowly, and provide sustained energy without dramatic blood sugar fluctuations.
               </p>
             </div>
-            {/* FAQ 3 */}
+        
             <div className="bg-gray-50 p-4 rounded-lg shadow">
               <h3 className="font-semibold text-lg mb-2">Are fats really that bad for you?</h3>
               <p className="text-gray-600">
               Not all fats are bad! Healthy fats, like those found in avocados, nuts, and olive oil, are essential for many bodily functions. It's the saturated and trans fats you should limit.
               </p>
             </div>
-             {/* FAQ 4 */}
+          
             <div className="bg-gray-50 p-4 rounded-lg shadow">
               <h3 className="font-semibold text-lg mb-2">How much water should I drink?</h3>
               <p className="text-gray-600">
