@@ -1,4 +1,6 @@
 import React from 'react'
+import Recipe_cooking from './pages/Recipe_cooking';
+
 
 
 
@@ -9,7 +11,7 @@ import React from 'react'
 const App = () => {
   return (
     <>
-   
+<Recipe_cooking/>
      
     
     </>

@@ -1,4 +1,8 @@
+ import img from '../assets/images/logo.png'
+
 const Footer = () => {
+
+  
     return (
       <div className="flex flex-col ">
         {/* Hero Section */}
@@ -27,11 +31,9 @@ const Footer = () => {
             {/* Brand & Description */}
             <div>
               <h2 className="text-lg font-semibold text-orange-400">
-                <span className="text-white">Sola</span>
-                <span className="text-orange-400"> Food</span><p></p>
-                <span className="text-white">Tracker</span>
+                <img src={img} alt="" className='w-auto h-20 my-4' />
                 </h2>
-              <p className="text-sm text-gray-400 mt-2">
+              <p className="text-xl text-gray-400 mt-2 pl-6">
                 Your companion for a healthier <p></p>lifestyle through better nutrition<p></p> tracking.
               </p>
             </div>
@@ -39,7 +41,7 @@ const Footer = () => {
             {/* Features Section */}
             <div>
               <h3 className="text-lg font-semibold mb-3">Features</h3>
-              <ul className="text-gray-400 space-y-2 text-sm">
+              <ul className="text-gray-400 space-y-2 text-md">
                 <li>Meal Planning</li>
                 <li>Nutrition Analysis</li>
                 <li>Weight Tracking</li>
@@ -50,7 +52,7 @@ const Footer = () => {
             {/* Company Section */}
             <div>
               <h3 className="text-lg font-semibold mb-3">Company</h3>
-              <ul className="text-gray-400 space-y-2 text-sm">
+              <ul className="text-gray-400 space-y-2 text-md">
                 <li>About Us</li>
                 <li>Careers</li>
                 <li>Blog</li>
@@ -61,7 +63,7 @@ const Footer = () => {
             {/* Legal Section */}
             <div>
               <h3 className="text-lg font-semibold mb-3">Legal</h3>
-              <ul className="text-gray-400 space-y-2 text-sm">
+              <ul className="text-gray-400 space-y-2 text-md">
                 <li>Terms of Service</li>
                 <li>Privacy Policy</li>
                 <li>Cookie Policy</li>
