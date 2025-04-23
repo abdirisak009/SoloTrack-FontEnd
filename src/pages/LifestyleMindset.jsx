@@ -8,10 +8,13 @@ import yoga from "../assets/images/yoga.jpg";
 import walking from "../assets/images/walking.jpg";
 import dancing from "../assets/images/dancing.jpg";
 import training from "../assets/images/training.jpg";
+import Header from '../components/Header';
 
 
 const Section = () => {
   return (
+    <>
+    <Header/>
     <section className="py-12 px-6 text-center">
       {/* Header Section */}
       <div className="bg-green-500 text-white py-12">
@@ -387,6 +390,7 @@ const Section = () => {
     </div>
 
     </section>
+    </>
   );
 };
 
