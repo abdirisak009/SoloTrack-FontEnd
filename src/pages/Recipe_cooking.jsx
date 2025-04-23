@@ -17,7 +17,7 @@ const Recipe_cooking= () => {
             placeholder="Search recipes..."
             className="pl-10 py-2  pr-7 mr-4 relative rounded-full bg-white  text-black  focus:outline-none"
           />
-          <i className="fa fa-search absolute text-gray-500 mt-3 ml-[-22%] "></i>
+          <i className="fa fa-search absolute text-gray-500 mt-3 ml-[-26%] "></i>
           <button className="bg-orange-500 px-5 py-2 rounded-full text-white font-medium">Find Recipes</button>
         </div>
       </div>
@@ -130,9 +130,6 @@ const Recipe_cooking= () => {
     </div>
 
     <Footer/>
-
-
-    
     </>
   );
 };

@@ -4,6 +4,8 @@ import { CheckCircle, Scale, Leaf, Utensils, Droplet, Clock } from "lucide-react
 import FoodsMealPlan from '../components/FoodMeal';
 import { Card, CardContent } from '../components/Card';
 import SuccessStories from '../components/SuccessStories';
+import Header from '../components/Header';
+
 
 const tips = [
     {
@@ -41,6 +43,7 @@ const tips = [
 const WeightLoss = () => {
   return (
     <>
+    <Header/>
     {/* weight Loss Hero Section */}
     <section className="bg-green-500 text-white py-16 text-center">
       <div className="container mx-auto px-4">
@@ -78,5 +81,6 @@ const WeightLoss = () => {
     </>
   )
 }
+
 
 export default WeightLoss

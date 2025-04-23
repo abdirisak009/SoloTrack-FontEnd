@@ -1,9 +1,13 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart, faUtensils, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
+import Header from '../components/Header';
+
 
 function NutritionGuide() {
   return (
+    <>
+   
     <html lang="en">
       <head>
         <meta charset="UTF-8" />
@@ -13,6 +17,7 @@ function NutritionGuide() {
         <title>Nutrition & Diet Guide</title>
       </head>
       <body className="font-sans antialiased">
+      <Header/>
         {/* Header */}
         <header className="bg-green-700 text-white py-12 text-center">
           <h1 className="text-3xl font-bold">Nutrition & Diet Guide</h1>
@@ -270,6 +275,7 @@ function NutritionGuide() {
         </div>
       </body>
     </html>
+    </>
   );
 }
 
