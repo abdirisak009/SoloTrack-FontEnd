@@ -6,7 +6,7 @@ const SignUp = () => {
     return (
         <div className="flex min-h-screen items-center justify-center bg-gray-100">
             <div className="flex w-full max-w-6xl bg-[#F9FBFC] shadow-lg rounded-lg overflow-hidden">
-                {/* Image S */}
+                {/* Image */}
                 <div className="hidden md:block md:w-1/2 p-3">
                     <img src={SUB} alt="Sign Up"   className="h-full w-full object-cover"   />
                 </div>
@@ -19,7 +19,7 @@ const SignUp = () => {
                        <img src={LOGO}  alt="Logo"  className="w-60"/>
                     </div>
                     
-                    <p className=" text-[15px]  text-gray-600 text-center mt-2">  Create your account and begin your health journey </p>
+                    <p className=" text-[15px]  text-gray-600 text-center mt-2">  Create yourS account and begin your health journey </p>
 
                     <form className="mt-6 space-y-4">
                         <div className="flex gap-4">
