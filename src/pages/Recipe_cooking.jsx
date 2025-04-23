@@ -1,9 +1,11 @@
 import React from "react";
 import {tips,featuredRecipes,RecipeCategories,CookingTechniques} from "../assets/assets"
 import rightSideImage from  "../assets/images/recipes&cooking/rightSideImage.png"
+import Footer from "../components/Footer";
 const Recipe_cooking= () => {
   return (
 
+    <>
     <div className="min-h-screen ">
       {/* Hero Section */}
       <div className="bg-[#00c951] text-white text-center py-16">
@@ -126,6 +128,9 @@ const Recipe_cooking= () => {
       </div>
     </div> 
     </div>
+
+    <Footer/>
+    </>
   );
 };
 
