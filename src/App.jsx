@@ -1,20 +1,12 @@
 import React from 'react'
+import Hero from './components/Hero'
 
-
-
-
-
-
-
-
-
-const App = () => {
+export const App = () => {
   return (
-    <>
-     
-    
-    </>
+    <div>
+      <Hero/>
+
+    </div>
   )
 }
-
-export default App;
+export default App
