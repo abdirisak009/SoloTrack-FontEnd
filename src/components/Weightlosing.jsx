@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Weightlose = () => {
+const Weightlosing = () => {
   return (
 <>
 <div className="bg-[#0D9B4D] py-8">
@@ -52,4 +52,4 @@ const Weightlose = () => {
   )
 }
 
-export default Weightlose
+export default Weightlosing;
