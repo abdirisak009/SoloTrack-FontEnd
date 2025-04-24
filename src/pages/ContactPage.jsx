@@ -1,9 +1,9 @@
 import React from 'react'
 
-const contact = () => {
+const ContactPage = () => {
   return (
     <section className="contact bg-white px-6 py-10 my-5 w-[45%] mx-auto shadow-xl rounded-2xl">
-      <form onSubmit={onSubmit} className="space-y-6">
+      <form >
         <h2 className="text-3xl font-bold text-center text-gray-800 mb-6">Contact Form</h2>
 
         <div className="input-box">
@@ -49,4 +49,4 @@ const contact = () => {
   )
 }
 
-export default contact
+export default ContactPage
