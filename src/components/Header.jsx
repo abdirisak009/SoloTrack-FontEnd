@@ -6,12 +6,15 @@ const Header = () => {
     <>
       <div className="bg-[#D8EFE3] rounded-full p-4 flex items-center justify-between w-full mt-10 px-20 py-8 text-2xl">
         {/* Logo Section */}
-        <img src={logo} className="w-[170px]" />
+
+        <Link to="/ " className="hover:text-green-600">
+          <img src={logo} className="w-[170px]" />
+        </Link>
 
         {/* Navigation Links */}
         <ul className="flex space-x-6 text-black font-normal ">
           <li>
-            <Link to="/ " className="hover:text-green-600">
+            <Link to="/" className="hover:text-green-600">
               Weight Loss
             </Link>
           </li>
