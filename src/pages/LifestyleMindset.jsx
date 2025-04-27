@@ -9,6 +9,7 @@ import walking from "../assets/images/walking.jpg";
 import dancing from "../assets/images/dancing.jpg";
 import training from "../assets/images/training.jpg";
 import Header from '../components/Header';
+import Footer from "../components/Footer";
 
 
 const Section = () => {
@@ -390,6 +391,7 @@ const Section = () => {
     </div>
 
     </section>
+    <Footer />
     </>
   );
 };
