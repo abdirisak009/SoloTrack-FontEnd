@@ -5,6 +5,7 @@ import FoodsMealPlan from '../components/FoodMeal';
 import { Card, CardContent } from '../components/Card';
 import SuccessStories from '../components/SuccessStories';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 
 const tips = [
@@ -78,6 +79,7 @@ const WeightLoss = () => {
     </div>
     <FoodsMealPlan/>
     <SuccessStories/>
+    <Footer/>
     </>
   )
 }

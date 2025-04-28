@@ -2,21 +2,16 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart, faUtensils, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
+
+
 
 
 function NutritionGuide() {
   return (
     <>
    
-    <html lang="en">
-      <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <script src="https://cdn.tailwindcss.com"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-        <title>Nutrition & Diet Guide</title>
-      </head>
-      <body className="font-sans antialiased">
+    
       <Header/>
         {/* Header */}
         <header className="bg-green-700 text-white py-12 text-center">
@@ -273,9 +268,13 @@ function NutritionGuide() {
             </div>
           </div>
         </div>
-      </body>
-    </html>
+        
+      
+    <Footer />
+    
+    
     </>
+    
   );
 }
 
