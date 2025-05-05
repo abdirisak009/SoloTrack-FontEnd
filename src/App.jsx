@@ -6,6 +6,8 @@ import Signup from "./pages/Signup";
 import LifestyleMindset from "./pages/LifestyleMindset";
 import { Route,Routes } from "react-router-dom";
 
+
+
 const App = () => {
   return (
     <div>
@@ -13,7 +15,7 @@ const App = () => {
         <Route path="/" element={<WeightLoss />}></Route>
         <Route path="/Nutrition" element={<Nutrition />}></Route>
         <Route path="/RecipeCooking" element={<Recipe_cooking />}></Route>
-        <Route path="/Signup" element={<Signup />}></Route>
+        <Route path="/Signup" element={<Signup/>}></Route>
         <Route path="/LifestyleMindset" element={<LifestyleMindset />}></Route>
       </Routes>
     </div>
