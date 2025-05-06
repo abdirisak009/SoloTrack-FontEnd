@@ -3,8 +3,8 @@ import React from 'react'
 const Weightlosing = () => {
   return (
 <>
-<div className="bg-[#0D9B4D] py-8">
-  <h1 className="text-white text-3xl font-bold text-center mb-10">
+<div className="bg-[#0D9B4D] py-8 ">
+  <h1 className="text-white text-3xl font-bold text-center mb-10 ">
     Weight Loss Made Easy
   </h1>
   <div className="flex flex-col md:flex-row justify-around px-8 flex-wrap gap-8">

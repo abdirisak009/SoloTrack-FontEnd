@@ -14,7 +14,7 @@ const Header = () => {
         {/* Navigation Links */}
         <ul className="flex space-x-6 text-black font-normal ">
           <li>
-            <Link to="/" className="hover:text-green-600">
+            <Link to="/WeightLoss" className="hover:text-green-600">
               Weight Loss
             </Link>
           </li>
