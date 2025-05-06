@@ -5,7 +5,7 @@ import img from "../assets/images/girl-image2.jpg";
 
 const Track = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center bg-orange-50 p-6 rounded-2xl shadow-lg max-w-4xl mx-auto">
+    <div className="flex flex-col md:flex-row items-center bg-orange-50 p-6 rounded-2xl shadow-lg max-w-4xl mx-auto mt-20">
       {/* Left Image Section */}
       <div className="relative w-full md:w-1/2">
         <img
