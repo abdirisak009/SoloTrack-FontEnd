@@ -1,18 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../assets/images/logo.png";
 import { Link } from "react-router-dom";
+import { FaBars, FaTimes } from "react-icons/fa";
+
 const Header = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <>
-      <div className="bg-[#D8EFE3] rounded-full p-4 flex items-center justify-between w-full mt-10 px-20 py-8 text-2xl">
+      <div className="bg-[#D8EFE3] rounded-full p-4 flex items-center justify-between w-full mt-10 px-4 md:px-12 py-6 text-xl md:text-2xl">
         {/* Logo Section */}
-
-        <Link to="/ " className="hover:text-green-600">
-          <img src={logo} className="w-[170px]" />
+        <Link to="/" className="hover:text-green-600">
+          <img src={logo} className="w-[120px] md:w-[170px]" alt="Logo" />
         </Link>
 
-        {/* Navigation Links */}
-        <ul className="flex space-x-6 text-black font-normal ">
+        {/* Navigation Links (Desktop) */}
+        <ul className="hidden lg:flex space-x-6 text-black font-normal">
           <li>
             <Link to="/WeightLoss" className="hover:text-green-600">
               Weight Loss
@@ -24,7 +31,7 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            <Link to="/RecipeCooking  " className="hover:text-green-600">
+            <Link to="/RecipeCooking" className="hover:text-green-600">
               Recipes & Cooking
             </Link>
           </li>
@@ -35,12 +42,51 @@ const Header = () => {
           </li>
         </ul>
 
-        {/* Sign In */}
-        <Link to="/Signup" className="font-bold hover:text-green-600">
+        {/* Sign In (Desktop) */}
+        <Link to="/Signup" className="hidden lg:block font-bold hover:text-green-600">
           SignIn
         </Link>
+
+        {/* Mobile Menu Button */}
+        <div className="lg:hidden flex items-center">
+          <button onClick={toggleMenu} className="text-black text-2xl focus:outline-none">
+            {isOpen ? <FaTimes /> : <FaBars />}
+          </button>
+        </div>
       </div>
-      ;
+
+      {/* Mobile Menu */}
+      {isOpen && (
+        <div className="lg:hidden bg-[#D8EFE3] w-full mt-4 p-6 rounded-3xl">
+          <ul className="flex flex-col space-y-4 text-black font-normal">
+            <li>
+              <Link to="/WeightLoss" className="hover:text-green-600" onClick={toggleMenu}>
+                Weight Loss
+              </Link>
+            </li>
+            <li>
+              <Link to="/Nutrition" className="hover:text-green-600" onClick={toggleMenu}>
+                Nutrition & Diet
+              </Link>
+            </li>
+            <li>
+              <Link to="/RecipeCooking" className="hover:text-green-600" onClick={toggleMenu}>
+                Recipes & Cooking
+              </Link>
+            </li>
+            <li>
+              <Link to="/LifestyleMindset" className="hover:text-green-600" onClick={toggleMenu}>
+                Lifestyle & Mindset
+              </Link>
+            </li>
+            <div className="mt-4 pt-4 border-t border-gray-400">
+              <Link to="/Signup" className="block font-bold hover:text-green-600" onClick={toggleMenu}>
+                SignIn
+              </Link>
+            </div>
+          </ul>
+        </div>
+      )}
     </>
   );
 };
