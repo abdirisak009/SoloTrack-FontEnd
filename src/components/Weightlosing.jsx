@@ -28,7 +28,7 @@ const Weightlosing = () => {
       />
       <h2 className="text-white text-2xl font-bold">Track Your Food</h2>
       <p className="text-gray-300">
-        Learn about the foods you’re eating <br /> and keep your calories within your Ea-
+        Learn about the foods you're eating <br /> and keep your calories within your Ea-
       </p>
     </div>
 
