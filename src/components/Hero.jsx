@@ -12,7 +12,7 @@ export const Hero = () => {
         </span>
       </h1>
       <img
-        className="w-full md:h-[80vh] object-cover mx-auto mt-3 md:mt-6 rounded-lg shadow-md"
+        className="w-full md:h-[100vh] object-cover mx-auto mt-3 md:mt-6 rounded-lg shadow-md"
         src={Banner}
         alt="Nutrition Banner"
       />

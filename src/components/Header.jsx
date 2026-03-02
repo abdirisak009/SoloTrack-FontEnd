@@ -12,7 +12,7 @@ const Header = () => {
 
   return (
     <>
-      <div className="bg-[#D8EFE3] rounded p-4 flex items-center justify-between w-full  px-4 md:px-12 py-3 mb-8  text-xl font-bold cursor-pointer">
+      <div className="bg-[#f5f5f5]  p-4 flex items-center justify-between w-full  px-4 md:px-12 py-3 mb-8  text-xl font-bold cursor-pointer">
         {/* Logo Section */}
         <Link to="/" className="hover:text-green-600">
           <img src={logo} className="w-[120px] md:w-[170px]" alt="Logo" />
